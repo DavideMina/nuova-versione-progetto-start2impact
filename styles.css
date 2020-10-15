@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: justify;
+  color: #fff;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container,
+.footer-container,
+.header,
+.footer {
+  background-color: DarkOrange;
+  height: 160px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main-container,
+.main-one,
+.main-container-two,
+.main-two,
+.main-container-three,
+.main-three {
+  justify-content: space-around;
+}
+
+.photo-container,
+.davide-mina, {
+  height: 600px;
+}
+
+.dubbio {
+  height: 350px;
+  display: none;
+}
+
+.ingranaggi {
+  display: none;
+}
+
+.space {
+  margin-top: 40px;
+}
+
+.icon {
+  max-width: 70px;
+}
+
+.main-one {
+  background: rgb(37,59,128);
+  background: linear-gradient(144deg, rgba(37,59,128,1) 1%, rgba(62,98,205,1) 50%, rgba(222,230,255,1) 99%);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.em {
+  color: red;
+}
+
+.form-row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+p {
+  font-size: 30px;
+  text-align: justify;
+}
+
+.photo-container {
+  order: 2;
+}
+
+.domanda-uno {
+  order: 1;
+}
+
+.textandform-container {
+  order: 3;
+  padding: 0 40px;
+  position:
+}
+
+type,
+placeholder {
+  color: black;
+}
+
+#full-name,
+#email {
+  height: 50px;
+}
+
+.form-row input[type='email'],
+.form-row input[type='text'] {
+  color: black;
+}
+
+button {
+  background-color: DarkOrange;
+  color: white;
+  width: 250px;
+  height: 50px;
+}
+
+.important {
+  color: DarkOrange;
+  font-weight: bold;
+}
+
+.main-two {
+  background: rgb(255,255,255);
+  background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(210,210,210,1) 24%, rgba(170,170,170,1) 83%, rgba(59,59,59,1) 99%);
+}
+
+.chisono {
+  color: black;
+}
+
+.chisono-em {
+  color: red;
+}
+
+.main-three {
+  background: rgb(37,59,128);
+  background: linear-gradient(25deg, rgba(37,59,128,1) 1%, rgba(62,98,205,1) 50%, rgba(222,230,255,1) 99%);
+}
+
+.libro,
+.startup {
+  display: flex;
+}
+
+.lOdN,
+.Effe {
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+.lOdN {
+  margin-top: 16px;
+}
+
+.immagine-emoji-razzo {
+  height: 64px;
+}
+
+
+/*inizia lavora con me*/
+.header-container-jobs {
+  background-color: lightgrey;
+  padding: 40px 350px;
+  color: black;
+  width: 100%;
+  height: 80px;
+}
+
+.progetti-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.jobs-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jobs {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px 60px;
+}
+
+.shaking-hands {
+  display: none;
+  width: 250px;
+  padding-top: 170px;
+  padding-right: 80px;
+}
+
+.text-jobs {
+  padding left: 60px;
+  color: black;
+}
+
+.text-jobs-posizioniaperte {
+  text-decoration: line-through;
+  color: red;
+}
+
+.text-jobs-novità {
+  color: DarkOrange;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.footer-container-jobs,
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightgrey;
+  width: 100%;
+  height: 80px;
+}
+
+.text-jobs-link {
+  color: Black;
+  text-decoration:
+}
+
+.text-jobs linkedin {
+  text-decoration: none;
+}
+
+.text-jobs-posizioniaperte {
+  padding-left: 180px;
+}
+
+.interessante-jobs {
+  font-style: italic;
+  color: DarkOrange;;
+}
+
+.less-interesting {
+  text-decoration: underline;
+  color: black;
+}
+
+.section jobs-container {
+  height: 180px;
+}
